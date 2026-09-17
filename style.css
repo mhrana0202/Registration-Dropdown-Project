@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*----------------------------------------------
+            Logo part Start here
+-----------------------------------------------*/
+
+.head{
+     width: 100%;
+    height: 80px;
+    background-color: #03455D;
+    display: flex;
+}
+
+.head .logo{
+    display: flex;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin-left: 45px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.logo p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font: bold;
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------
+            Logo part End here
+-----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------
+            Navbar part Start here
+-----------------------------------------------*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 20px;
+}
+
+
+.navbar ul li a:hover{
+    color: rgba(51, 226, 28, 0.5);
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+/*----------------------------------------------
+            Navbar part End here
+-----------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------
+    Login & Registration (Button) part Start here
+-----------------------------------------------*/
+
+.regi{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.regi a{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #ffa500;
+     color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 50px;
+    padding: 5px 15px;
+}
+
+
+.regi a:hover{
+    background-color: #fff;
+    color: #008000;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+/*----------------------------------------------
+    Login & Registration (Button) part End here
+-----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------
+        Login part Start here
+-----------------------------------------------*/
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: #0E1D30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login{
+width: 500px;
+padding: 30px 20px;
+text-align: center;
+border-radius: 10px;
+background-color: #ffe4c4;
+box-shadow: 1px 5px 10px 1px rgb(231, 227, 227);
+}
+
+.login p{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(12, 104, 4, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.login .log-email{
+    display: block;
+    width: 400px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 70px auto;
+    outline: none;
+}
+
+.login .log-pass{
+    display: block;
+    width: 400px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: -20px auto;
+    outline: none;
+}
+
+.login .log-btn{
+    display: block;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 50px auto;
+    outline: none;
+    cursor: pointer;
+}
+
+.log-btn:hover{
+    background-color: rgba(12, 104, 4, 0.2);
+    color: #008000;
+    transition: all 0.3s ease-in;
+}
+
+.login a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.login a:active{
+    color: #f44;
+}
