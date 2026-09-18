@@ -8,6 +8,7 @@
 
 /*------------ body part --------------------*/
 body{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +22,6 @@ body{
 /*------------ Register-Container main div part --------------------*/
 .register-container{
     width: 600px;
-    height: 130vh;
     background-color: #474548;
     margin: 0 auto;
     padding: 70px 30px;
