@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebd9c4;
+}
+
+
+
+/*---------------- Main Contact-Container part ---------------------------------*/
+.contact-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/*---------------- Location sector part ---------------------------------*/
+.location-sector{
+    width: 500px;
+    background-color: #CAD2DB;
+    text-align: center;
+    padding: 110px 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+/*---------------- Location sector Heading part ---------------------------------*/
+.location-sector .loc-head{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #33476C;
+    margin-bottom: 30px;
+}
+
+
+/*---------------- Location sector Address part ---------------------------------*/
+.location-sector .loc{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+
+
+/*---------------- Location sector Icons part ---------------------------------*/
+.location-sector .icon-head{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #33476C;
+    margin-bottom: 20px;
+}
+
+.icons a{
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.icons a:hover{
+    color: #088000;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/*---------------- Location sector CopyRight part ---------------------------------*/
+.location-sector .copy{
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------
+        contact-text-area part 
+----------------------------------------*/
+.contact-text-area{
+    width: 500px;
+    background-color: #2A4575;
+    text-align: center;
+    padding: 110px 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+
+/*---------------- contact-text-area Heading part -----------------------*/
+.contact-text-area h1{
+    text-align: left;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: rgba(142, 170, 217, 0.5);
+    margin-bottom: 20px;
+}
+
+
+/*---------------- contact-text-area Name part -----------------------*/
+.contact-text-area .name{
+    display: block;
+    width: 400px;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+
+
+/*---------------- contact-text-area Email part -----------------------*/
+.contact-text-area .email{
+    display: block;
+    width: 400px;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+
+
+/*---------------- contact-text-box  part -----------------------*/
+.contact-text-area .text-box{
+    display: block;
+    width: 400px;
+    height: 120px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+
+
+/*---------------- contact-text-area Submit-Button part -----------------------*/
+.contact-text-area .submit-btn{
+    padding: 5px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 1px solid rgba(235, 14, 14, 0.8);
+    border-radius: 20px;
+    outline: none;
+    display: block;
+    justify-content: start;
+    background: transparent;
+    color: rgba(230, 230, 230, 0.7);
+}
+
+.contact-text-area .submit-btn:hover{
+    background-color: #fff;
+    color: #088000;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.03);
+    cursor: pointer;
+}
